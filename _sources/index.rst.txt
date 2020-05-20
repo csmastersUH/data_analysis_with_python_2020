@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Data analysis with Python - Spring 2020
+Welcome to Data analysis with Python - 2020
 ==================================================
 
 In this course an overview is given of different phases
@@ -50,7 +50,7 @@ before the course "Introduction to Data Science".
 Conduct of the course
 ----------------------
 
-Refer to the `official course page <https://courses.helsinki.fi/fi/aycsm90004en/129239201>`__.
+Refer to the `official course page <https://courses.helsinki.fi/fi/aycsm90004en/135221588>`__.
 
 Note that this course requires a lot of work! Depending on your background
 it can take something between 5 to 20 hours per week.

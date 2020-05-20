@@ -126,7 +126,7 @@ issue. If the problem persists, make a bug report in:
 
 * Telegram: `https://t.me/tkt_dap <https://t.me/tkt_dap>`__
 
-* Github `issues <https://github.com/csmastersUH/data_analysis_with_python_spring_2020/issues>`__
+* Github `issues <https://github.com/csmastersUH/data_analysis_with_python_2020/issues>`__
 
 * Give feedback, when using ``tmc submit``
 
