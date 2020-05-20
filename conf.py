@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Data analysis with Python - Spring 2020'
+project = 'Data analysis with Python - 2020'
 copyright = '2018-2020, Jarkko Toivonen'
 author = 'Jarkko Toivonen, Saska Dönges'
 
@@ -180,10 +180,10 @@ nbsphinx_prolog = r"""
     .. nbinfo::
 
         This page was generated from `{{ docname2 }}`__.
-        :raw-html:`<br/><a href='https://colab.research.google.com/github/csmastersUH/data_analysis_with_python_spring_2020/blob/master/{{ docname2 }}'><img align='left' src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open in Colab' title='Open and Execute in Google Colaboratory' /></a>`
+        :raw-html:`<br/><a href='https://colab.research.google.com/github/csmastersUH/data_analysis_with_python_2020/blob/master/{{ docname2 }}'><img align='left' src='https://colab.research.google.com/assets/colab-badge.svg' alt='Open in Colab' title='Open and Execute in Google Colaboratory' /></a>`
         :raw-html:`<br/>`
 
-    __ https://github.com/csmastersUH/data_analysis_with_python_spring_2020/blob/master/{{ docname2 }}
+    __ https://github.com/csmastersUH/data_analysis_with_python_2020/blob/master/{{ docname2 }}
 
 """
 

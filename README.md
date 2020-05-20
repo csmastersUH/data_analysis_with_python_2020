@@ -41,11 +41,16 @@ at `github.io`.
 To set up this automation, follow the next instructions:
 
 In Github choose settings -> Developer settings -> Personal access tokens
-and generate an access token and copy it.
+and generate an access token and copy it. (This may not be required with the app)
 
 In Travis CI (travis-ci.com) select the correct repository and add an environment variable
 with key ´GITHUB_TOKEN´ and as value the secret token you got from github.
 This allows Travis to push the html pages to the gh-pages branch of the github repository.
+
+**Possibly time saving notes:** 
+
+* Ensure that `.travis.yml` and `.gitignore` files are present. 
+* The `.py` files requre execution bits to be able to run on Travis.
 
 You may at some point need to install the Travis CI application to github.
 
