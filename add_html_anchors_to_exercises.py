@@ -28,9 +28,9 @@ def process(filename):
             #d.string = '<a name="%s">%s</a>' % (exercise.replace(" ", "-"), exercise)
             #print("\n", d)
 
-
     with open(filename, "w") as f:
         f.write(str(soup))
+
 
 for filename in sys.argv[1:]:
     print("Processing file %s" % filename)
