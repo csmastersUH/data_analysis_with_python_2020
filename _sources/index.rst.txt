@@ -3,6 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. raw:: html
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47575342-12"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-47575342-12');
+    </script>
+
 Welcome to Data analysis with Python - 2020
 ==================================================
 
