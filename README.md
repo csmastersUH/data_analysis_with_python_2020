@@ -12,6 +12,8 @@ The course material is licensed under a [Creative Commons BY-NC-SA 4.0](https://
 
 # Usage:
 
+Every new instance is likely to need a new google analytics tag from open university. This tag is setup at the start of `index.rst`.
+
 ## Building html pages locally
 
 The libraries needed in these Jupyter notebooks are listed in file `requirements.txt`.
