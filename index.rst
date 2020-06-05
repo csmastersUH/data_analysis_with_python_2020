@@ -17,6 +17,12 @@
 Welcome to Data analysis with Python - 2020
 ==================================================
 
+**NOTE:** please check for the course practicalities, e.g., 
+how to pass the course, schedules, and deadlines, at the 
+`official course page <https://courses.helsinki.fi/fi/aycsm90004en/135221588>`__. 
+This course is available until early April 2021 (recommended latest 
+start date March 1, 2021)
+
 In this course an overview is given of different phases
 of the data analysis pipeline using Python and its data analysis
 ecosystem. What is typically done in data analysis? We assume that data is already
