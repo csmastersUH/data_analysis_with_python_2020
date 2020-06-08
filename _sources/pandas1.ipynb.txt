@@ -31,7 +31,12 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2020-06-08T14:29:05.395814Z",
+     "start_time": "2020-06-08T14:29:05.239438Z"
+    }
+   },
    "outputs": [],
    "source": [
     "import pandas as pd    # This is the standard way of importing the Pandas library\n",
@@ -48,10 +53,15 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2020-06-08T14:29:06.716118Z",
+     "start_time": "2020-06-08T14:29:06.622166Z"
+    }
+   },
    "outputs": [],
    "source": [
-    "wh = pd.read_csv(\"https://www.cs.helsinki.fi/u/jttoivon/dap/data/fmi/kumpula-weather-2017.csv\")\n",
+    "wh = pd.read_csv(\"https://raw.githubusercontent.com/csmastersUH/data_analysis_with_python_2020/master/kumpula-weather-2017.csv\")\n",
     "wh.head()   # The head method prints the first 5 rows"
    ]
   },

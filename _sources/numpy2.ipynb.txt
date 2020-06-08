@@ -113,17 +113,27 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2020-06-08T14:28:10.188167Z",
+     "start_time": "2020-06-08T14:28:09.913042Z"
+    }
+   },
    "outputs": [],
    "source": [
     "import pandas as pd\n",
-    "a=pd.read_csv(\"https://www.cs.helsinki.fi/u/jttoivon/dap/data/fmi/kumpula-weather-2017.csv\")['Air temperature (degC)'].values"
+    "a=pd.read_csv(\"https://raw.githubusercontent.com/csmastersUH/data_analysis_with_python_2020/master/kumpula-weather-2017.csv\")['Air temperature (degC)'].values"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2020-06-08T14:28:10.886985Z",
+     "start_time": "2020-06-08T14:28:10.870717Z"
+    }
+   },
    "outputs": [],
    "source": [
     "a"
