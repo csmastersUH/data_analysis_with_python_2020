@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="writer-html4" lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Image processing — Data analysis with Python - 2020  documentation</title>
-<script src="_static/js/modernizr.min.js" type="text/javascript"></script>
+<link href="_static/css/theme.css" rel="stylesheet" type="text/css"/>
+<link href="_static/pygments.css" rel="stylesheet" type="text/css"/>
+<!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
 <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js" type="text/javascript"></script>
 <script src="_static/jquery.js" type="text/javascript"></script>
 <script src="_static/underscore.js" type="text/javascript"></script>
@@ -13,8 +17,6 @@
 <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
 <script src="_static/js/theme.js" type="text/javascript"></script>
-<link href="_static/css/theme.css" rel="stylesheet" type="text/css"/>
-<link href="_static/pygments.css" rel="stylesheet" type="text/css"/>
 <link href="genindex.html" rel="index" title="Index"/>
 <link href="search.html" rel="search" title="Search"/>
 <link href="pandas1.html" rel="next" title="Pandas"/>
@@ -25,7 +27,7 @@
 <nav class="wy-nav-side" data-toggle="wy-nav-shift">
 <div class="wy-side-scroll">
 <div class="wy-side-nav-search"><a href="http://www.helsinki.fi" style="margin-bottom: 0px;"><img src="https://uni.materialbank.net/NiboWEB/uni/getPublicFile.do?uuid=146263&amp;inline=false&amp;ticket=8a2a112700dc87abd2813d55e149bc0c&amp;type=original" style="margin-bottom: 0px;max-width: 60%;height: auto;width: auto;"/></a>
-<a class="icon icon-home" href="index.html"> Data analysis with Python - 2020
+<a alt="Documentation Home" class="icon icon-home" href="index.html"> Data analysis with Python - 2020
           
 
           
@@ -99,7 +101,7 @@
 <div class="rst-content">
 <div aria-label="breadcrumbs navigation" role="navigation">
 <ul class="wy-breadcrumbs">
-<li><a href="index.html">Docs</a> »</li>
+<li><a class="icon icon-home" href="index.html"></a> »</li>
 <li>Image processing</li>
 <li class="wy-breadcrumbs-aside">
 <a href="_sources/image_processing.ipynb.txt" rel="nofollow"> View page source</a>
@@ -360,7 +362,7 @@ This page was generated from <a class="reference external" href="https://github.
 <h1>Image processing<a class="headerlink" href="#Image-processing" title="Permalink to this headline">¶</a></h1>
 <p>An image is a collection of <em>pixels</em>, which is abbreviation for picture elements. A grayscale image can be represented as as two dimensional array, whose first axis corresponds to the x coordinate of the image and the second axis corresponds to the y coordinate. The array contains at each coordinate pair (x,y) a value, which is typically a float between 0.0 and 1.0, or an integer between 0 and 255. This specifies the level of grayness. For example, if the array contains value 255 at coordinates
 (0,0), then in the image the pixel at top left is white.</p>
-<p>In color images there is third axis is for the red, green, and blue components of each pixel. For each of these color components there is a value between 0.1 and 1.0 (or between 0 and 255). The combinations of different values for the three components red, green, and blue can result in at least 16.7 million colors.</p>
+<p>In color images there is third axis is for the red, green, and blue components of each pixel. For each of these color components there is a value between 0.0 and 1.0 (or between 0 and 255). The combinations of different values for the three components red, green, and blue can result in at least 16.7 million colors.</p>
 <p>Since images can be represented as multidimensional arrays, we can easily process images using NumPy functions. Let’s see examples of these.</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
@@ -603,11 +605,19 @@ Number of clusters is 12
 <hr/>
 <div role="contentinfo">
 <p>
+        
         © Copyright 2018-2020, Jarkko Toivonen
 
     </p>
 </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 </div>

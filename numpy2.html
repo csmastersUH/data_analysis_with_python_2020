@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="writer-html4" lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>NumPy (continues) — Data analysis with Python - 2020  documentation</title>
-<script src="_static/js/modernizr.min.js" type="text/javascript"></script>
+<link href="_static/css/theme.css" rel="stylesheet" type="text/css"/>
+<link href="_static/pygments.css" rel="stylesheet" type="text/css"/>
+<!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
 <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js" type="text/javascript"></script>
 <script src="_static/jquery.js" type="text/javascript"></script>
 <script src="_static/underscore.js" type="text/javascript"></script>
@@ -13,8 +17,6 @@
 <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
 <script src="_static/js/theme.js" type="text/javascript"></script>
-<link href="_static/css/theme.css" rel="stylesheet" type="text/css"/>
-<link href="_static/pygments.css" rel="stylesheet" type="text/css"/>
 <link href="genindex.html" rel="index" title="Index"/>
 <link href="search.html" rel="search" title="Search"/>
 <link href="matplotlib.html" rel="next" title="Matplotlib"/>
@@ -25,7 +27,7 @@
 <nav class="wy-nav-side" data-toggle="wy-nav-shift">
 <div class="wy-side-scroll">
 <div class="wy-side-nav-search"><a href="http://www.helsinki.fi" style="margin-bottom: 0px;"><img src="https://uni.materialbank.net/NiboWEB/uni/getPublicFile.do?uuid=146263&amp;inline=false&amp;ticket=8a2a112700dc87abd2813d55e149bc0c&amp;type=original" style="margin-bottom: 0px;max-width: 60%;height: auto;width: auto;"/></a>
-<a class="icon icon-home" href="index.html"> Data analysis with Python - 2020
+<a alt="Documentation Home" class="icon icon-home" href="index.html"> Data analysis with Python - 2020
           
 
           
@@ -100,7 +102,7 @@
 <div class="rst-content">
 <div aria-label="breadcrumbs navigation" role="navigation">
 <ul class="wy-breadcrumbs">
-<li><a href="index.html">Docs</a> »</li>
+<li><a class="icon icon-home" href="index.html"></a> »</li>
 <li>NumPy (continues)</li>
 <li class="wy-breadcrumbs-aside">
 <a href="_sources/numpy2.ipynb.txt" rel="nofollow"> View page source</a>
@@ -1156,13 +1158,13 @@ Inverted matrix:
  [ 0.56666667  0.3        -0.53333333]
  [-0.25555556 -0.23333333  0.37777778]]
 Matrix product:
-[[  1.00000000e+00  -2.77555756e-17   3.33066907e-16]
+[[  1.00000000e+00   0.00000000e+00   4.44089210e-16]
  [  7.21644966e-16   1.00000000e+00   1.11022302e-16]
- [  0.00000000e+00  -2.22044605e-16   1.00000000e+00]]
+ [ -4.44089210e-16  -2.22044605e-16   1.00000000e+00]]
 Matrix product the other way:
-[[  1.00000000e+00  -5.55111512e-16   0.00000000e+00]
- [ -2.22044605e-16   1.00000000e+00   8.88178420e-16]
- [  1.11022302e-16  -3.33066907e-16   1.00000000e+00]]
+[[  1.00000000e+00  -8.88178420e-16   0.00000000e+00]
+ [  4.44089210e-16   1.00000000e+00   8.88178420e-16]
+ [  0.00000000e+00  -4.44089210e-16   1.00000000e+00]]
 </pre></div></div>
 </div>
 <p>Let’s try mapping a vector with the matrix and its inverse:</p>
@@ -1253,11 +1255,19 @@ a_{n1}x_1 + a_{n2}x_2 + \cdots a_{nm}x_m = b_n\\\end{split}\]</div>
 <hr/>
 <div role="contentinfo">
 <p>
+        
         © Copyright 2018-2020, Jarkko Toivonen
 
     </p>
 </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 </div>
