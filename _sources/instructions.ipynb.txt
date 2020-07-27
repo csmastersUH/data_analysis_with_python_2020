@@ -92,7 +92,7 @@
     "* To start programming and to download excercises, continue with the instructions at [https://www.mooc.fi/en/installation/vscode](https://www.mooc.fi/en/installation/vscode) (the part *Starting programming*) using \n",
     "    * Organization: Helsingin yliopisto\n",
     "    * Course: Data Analysis with Python 2020\n",
-    "* The instruction page also contains examples of how to test and submit your solutions to the assignments\n",
+    "* The instruction page also contains examples of how to test and submit your solutions to assignments from the introuction to programming course. You can follow these while substituting exercise names/numbers and code for the Data analysis with python exercises.\n",
     "\n",
     "### Alternative approach (TMC CLI)\n",
     "\n",
