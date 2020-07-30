@@ -48,6 +48,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Frequently asked questions</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#how-to-load-a-file-that-resides-in-the-src-folder">How to load a file that resides in the src folder?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#tests-complain-about-missing-attribute-assert-called-assert-called-once">Tests complain about missing attribute assert_called, assert_called_once, …</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#problem-when-testing-part01-e09">Problem when testing part01-e09</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#modulenotfounderror-no-module-named-somelibrary">ModuleNotFoundError: No module named ‘somelibrary’</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-version-of-python-should-i-use-what-is-the-name-of-the-executable">What version of Python should I use? What is the name of the executable?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#stuff-generally-doesn-t-seem-to-work-in-the-conda-prompt-on-windows">Stuff generally doesn’t seem to work in the conda prompt on Windows</a></li>
@@ -156,11 +157,19 @@ who runs the program to provide the correct path, like <code class="docutils lit
 <h2>Tests complain about missing attribute assert_called, assert_called_once, …<a class="headerlink" href="#tests-complain-about-missing-attribute-assert-called-assert-called-once" title="Permalink to this headline">¶</a></h2>
 <p>These require at least Python version 3.6. Check your installation. See the next question.</p>
 </div>
+<div class="section" id="problem-when-testing-part01-e09">
+<h2>Problem when testing part01-e09<a class="headerlink" href="#problem-when-testing-part01-e09" title="Permalink to this headline">¶</a></h2>
+<p>This is likely due to the tests using the numpy library and the library not being available to the test program.</p>
+<p>See the next topic.</p>
+</div>
 <div class="section" id="modulenotfounderror-no-module-named-somelibrary">
 <h2>ModuleNotFoundError: No module named ‘somelibrary’<a class="headerlink" href="#modulenotfounderror-no-module-named-somelibrary" title="Permalink to this headline">¶</a></h2>
 <p>The libraries needed in the course (numpy, pandas, matplotlib, scikit-learn, scipy, seaborn, and statsmodels)
-are contained in the Anaconda distribution. Either you haven’t installed Anaconda or
-it hasn’t been activated.</p>
+are contained in the Anaconda distribution. Either you haven’t installed Anaconda or it hasn’t been activated.</p>
+<p>If you are using VSCode, the best way is to start VSCode from the anaconda navigator. If this does not work for you,
+try selecting a python interpreter that has the necessary libraries by accessing the “Python: Select interpreter” option
+from the Command palette (CTRL + SHIFT + P), and selecting a python 3.6 or higher with conda or anaconda in the path.</p>
+<p><strong>For non-Anaconda and/or non-VSCode users:</strong></p>
 <p>On Windows it may help, if you use ‘Anaconda prompt’ from the Windows menu.
 That should activate Anaconda automatically.</p>
 <p>If you don’t want to use ‘Anaconda prompt’, then in command prompt
