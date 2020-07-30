@@ -17,12 +17,24 @@ Tests complain about missing attribute assert_called, assert_called_once, ...
 
 These require at least Python version 3.6. Check your installation. See the next question.
 
+Problem when testing part01-e09
+-------------------------------
+
+This is likely due to the tests using the numpy library and the library not being available to the test program. 
+
+See the next topic.
+
 ModuleNotFoundError: No module named 'somelibrary'
 --------------------------------------------------
 
 The libraries needed in the course (numpy, pandas, matplotlib, scikit-learn, scipy, seaborn, and statsmodels)
-are contained in the Anaconda distribution. Either you haven't installed Anaconda or
-it hasn't been activated.
+are contained in the Anaconda distribution. Either you haven't installed Anaconda or it hasn't been activated.
+
+If you are using VSCode, the best way is to start VSCode from the anaconda navigator. If this does not work for you, 
+try selecting a python interpreter that has the necessary libraries by accessing the "Python: Select interpreter" option 
+from the Command palette (CTRL + SHIFT + P), and selecting a python 3.6 or higher with conda or anaconda in the path.
+
+**For non-Anaconda and/or non-VSCode users:**
 
 On Windows it may help, if you use 'Anaconda prompt' from the Windows menu.
 That should activate Anaconda automatically.
